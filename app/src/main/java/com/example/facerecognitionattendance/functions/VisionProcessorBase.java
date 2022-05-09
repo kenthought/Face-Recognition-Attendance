@@ -31,7 +31,7 @@ import com.example.facerecognitionattendance.BitmapUtils;
 import com.example.facerecognitionattendance.CameraImageGraphic;
 import com.example.facerecognitionattendance.FrameMetadata;
 import com.example.facerecognitionattendance.GraphicOverlay;
-import com.example.facerecognitionattendance.InferenceInfoGraphic;
+//import com.example.facerecognitionattendance.InferenceInfoGraphic;
 import com.example.facerecognitionattendance.ScopedExecutor;
 import com.example.facerecognitionattendance.TemperatureMonitor;
 import com.example.facerecognitionattendance.VisionImageProcessor;
@@ -319,14 +319,14 @@ public abstract class VisionProcessorBase<T> implements VisionImageProcessor {
                         graphicOverlay.add(new CameraImageGraphic(graphicOverlay, originalCameraImage));
                     }
                     VisionProcessorBase.this.onSuccess(results, graphicOverlay);
-                    if (!PreferenceUtils.shouldHideDetectionInfo(graphicOverlay.getContext())) {
-                        graphicOverlay.add(
-                                new InferenceInfoGraphic(
-                                        graphicOverlay,
-                                        currentFrameLatencyMs,
-                                        currentDetectorLatencyMs,
-                                        shouldShowFps ? framesPerSecond : null));
-                    }
+//                    if (!PreferenceUtils.shouldHideDetectionInfo(graphicOverlay.getContext())) {
+//                        graphicOverlay.add(
+//                                new InferenceInfoGraphic(
+//                                        graphicOverlay,
+//                                        currentFrameLatencyMs,
+//                                        currentDetectorLatencyMs,
+//                                        shouldShowFps ? framesPerSecond : null));
+//                    }
                     graphicOverlay.postInvalidate();
                 })
                 .addOnFailureListener(
