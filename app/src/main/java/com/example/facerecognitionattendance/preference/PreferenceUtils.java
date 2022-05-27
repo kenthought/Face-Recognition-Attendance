@@ -81,22 +81,22 @@ public class PreferenceUtils {
                 getModeTypePreferenceValue(
                         context,
                         R.string.pref_key_live_preview_face_detection_landmark_mode,
-                        FaceDetectorOptions.LANDMARK_MODE_ALL);
+                        FaceDetectorOptions.LANDMARK_MODE_NONE);
         int contourMode =
                 getModeTypePreferenceValue(
                         context,
                         R.string.pref_key_live_preview_face_detection_contour_mode,
-                        FaceDetectorOptions.CONTOUR_MODE_ALL);
+                        FaceDetectorOptions.CONTOUR_MODE_NONE);
         int classificationMode =
                 getModeTypePreferenceValue(
                         context,
                         R.string.pref_key_live_preview_face_detection_classification_mode,
-                        FaceDetectorOptions.CLASSIFICATION_MODE_ALL);
+                        FaceDetectorOptions.CLASSIFICATION_MODE_NONE);
         int performanceMode =
                 getModeTypePreferenceValue(
                         context,
                         R.string.pref_key_live_preview_face_detection_performance_mode,
-                        FaceDetectorOptions.PERFORMANCE_MODE_FAST);
+                        FaceDetectorOptions.PERFORMANCE_MODE_ACCURATE);
 
         SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(context);
         boolean enableFaceTracking =

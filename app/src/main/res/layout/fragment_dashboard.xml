@@ -26,16 +26,6 @@
             android:padding="20dp"
             android:text="@string/add_student"
             android:textSize="24sp" />
-
-        <TextView
-            android:id="@+id/addSchedule"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/activity_vertical_margin"
-            android:background="@drawable/list_item_style"
-            android:padding="20dp"
-            android:text="@string/add_schedule"
-            android:textSize="24sp" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -12,7 +12,6 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
 import com.example.facerecognitionattendance.databinding.FragmentDashboardBinding;
-import com.example.facerecognitionattendance.ui.activity.AddScheduleActivity;
 import com.example.facerecognitionattendance.ui.activity.AddStudentActivity;
 
 public class DashboardFragment extends Fragment {
@@ -32,9 +31,6 @@ public class DashboardFragment extends Fragment {
 
         final TextView addStudent = binding.addStudent;
         addStudent.setOnClickListener(v -> startActivity(new Intent(getActivity(), AddStudentActivity.class)));
-
-        final TextView addSchedule = binding.addSchedule;
-        addSchedule.setOnClickListener(v -> startActivity(new Intent(getActivity(), AddScheduleActivity.class)));
 
         return root;
     }
