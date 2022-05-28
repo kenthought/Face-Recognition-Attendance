@@ -6,6 +6,7 @@
     <string name="title_notifications">Notifications</string>
     <string name="add_student">Add Student</string>
     <string name="add_schedule">Add Schedule</string>
+    <string name="add_photo">Add Photo</string>
     <string name="start_attendance">Start Attendance</string>
     <string name="menu_item_settings" translatable="false">Settings</string>
 

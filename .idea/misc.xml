@@ -5,6 +5,8 @@
       <map>
         <entry key="..\:/Users/Asus/AndroidStudioProjects/FaceRecognitionAttendance/app/src/main/res/drawable-hdpi/toggle_style.xml" value="0.112" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/FaceRecognitionAttendance/app/src/main/res/drawable/list_item_style.xml" value="0.2265" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/FaceRecognitionAttendance/app/src/main/res/layout/activity_add_schedule.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/FaceRecognitionAttendance/app/src/main/res/layout/activity_add_student.xml" value="0.4" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/FaceRecognitionAttendance/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/FaceRecognitionAttendance/app/src/main/res/layout/activity_vision_camerax_live_preview.xml" value="0.2997159090909091" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/FaceRecognitionAttendance/app/src/main/res/layout/fragment_dashboard.xml" value="0.2" />
@@ -15,6 +17,7 @@
         <entry key="..\:/Users/Asus/AndroidStudioProjects/FaceRecognitionAttendance/app/src/main/res/layout/spinner_style.xml" value="0.10989583333333333" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/FaceRecognitionAttendance/app/src/main/res/layout/toggle_style.xml" value="0.10989583333333333" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/FaceRecognitionAttendance/app/src/main/res/menu/bottom_nav_menu.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/FaceRecognitionAttendance/app/src/main/res/menu/camera_button_menu.xml" value="0.25" />
       </map>
     </option>
   </component>

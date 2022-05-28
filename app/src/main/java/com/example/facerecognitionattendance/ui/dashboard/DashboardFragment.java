@@ -1,5 +1,6 @@
 package com.example.facerecognitionattendance.ui.dashboard;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,6 +12,7 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
 import com.example.facerecognitionattendance.databinding.FragmentDashboardBinding;
+import com.example.facerecognitionattendance.ui.activity.AddStudentActivity;
 
 public class DashboardFragment extends Fragment {
 
@@ -24,8 +26,12 @@ public class DashboardFragment extends Fragment {
         binding = FragmentDashboardBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textDashboard;
-        dashboardViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+//        final TextView textView = binding.textDashboard;
+//        dashboardViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+
+        final TextView addStudent = binding.addStudent;
+        addStudent.setOnClickListener(v -> startActivity(new Intent(getActivity(), AddStudentActivity.class)));
+
         return root;
     }
 
